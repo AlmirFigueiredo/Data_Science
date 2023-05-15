@@ -4,11 +4,8 @@ from sympy import *
 def f(x):
     return 2*x - 4
 
-x_values = [2, 5, 7, 10]
-for x in x_values:
-    x = symbols('x')
-    y = f(x)
-    plot(y)
+x = symbols('x')
+plot(f(x))
 
 
 
