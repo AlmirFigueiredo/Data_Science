@@ -9,3 +9,7 @@ def slope(f, point):
 point = 2
 result = limit(slope(f, point), s, 0)
 print(result)
+
+# The limit function works this way: limit({function}, {variable}, {point}). The point means the 'point' the variable is approaching
+# I can represent infinity as oo (double o)
+
